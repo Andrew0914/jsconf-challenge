@@ -4,10 +4,12 @@
   "description": "The solution to the nextiva js-conf challenge",
   "main": "index.js",
   "dependencies": {
-    "typescript": "^4.5.2",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-typescript": "^7.16.0",
     "@types/jest": "^27.0.3",
     "jest": "^27.4.0",
-    "tsc-watch": "^4.5.0"
+    "tsc-watch": "^4.5.0",
+    "typescript": "^4.5.2"
   },
   "scripts": {
     "test": "jest",
