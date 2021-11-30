@@ -1,0 +1,23 @@
+{
+  "name": "jsconf-challenge",
+  "version": "1.0.0",
+  "description": "The solution to the nextiva js-conf challenge",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.5.2",
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.0",
+    "tsc-watch": "^4.5.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc src/index.ts --outFile ./build/index.js",
+    "dev": "tsc-watch src/index.ts --outDir ./build --onSuccess 'node ./build/index.js' --onFailure 'echo Could not run project ❌'"
+  },
+  "keywords": [
+    "typescript",
+    "challenge"
+  ],
+  "author": "Andrew Gonzalez",
+  "license": "ISC"
+}
